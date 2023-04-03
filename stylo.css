@@ -1,6 +1,6 @@
 header {
-    background-image: url("imagen-header.png");
-    height: 80px;
+    background-image: url("./ImG/pexels-mati-mango-15575162.jpg");
+    height: 280px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -8,7 +8,8 @@ header {
   }
   
   header img {
-    height: 50px;
+    height: 250px;
+
   }
   
   nav ul {
