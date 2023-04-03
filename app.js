@@ -4,3 +4,5 @@ var saludar= 'Hola Como estan?';
 var teclado = 'Muestro teclado';
 console.log(saludar);
 document.write(teclado);
+
+console.log(saludar + teclado);
