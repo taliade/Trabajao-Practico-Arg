@@ -1,0 +1,126 @@
+header {
+    background-image: url("imagen-header.png");
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  header img {
+    height: 50px;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav li:last-child {
+    margin-right: 0;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  /* secciones*/
+  section {
+    background-color: #f5f5f5;
+    padding: 50px 20px;
+  }
+  
+  section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  section p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+
+
+  
+/* Formulario*/
+#formulario {
+    background-color: #e6e6e6;
+    padding: 50px 20px;
+  }
+  
+  #formulario h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  form input[type="text"],
+  form input[type="email"],
+  form select {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+  }
+  
+  form button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+
+
+
+
+
+
+
+/* Footer*/
+
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  footer ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-bottom: 10px;
+  }
+  
+  footer li {
+    margin-right: 20px;
+  }
+  
+  
+  
